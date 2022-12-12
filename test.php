@@ -1,10 +1,10 @@
 <?php
 
-$array = array(
+$array = [
     "emoji" => "😀 😃 😄 😁 😆",
     "Random number" => rand(100, 999),
     "PHP Version" => phpversion()
-);
+];
 
 foreach ($array as $key => $value) {
     echo $key . "\t=>\t" . $value . "\n";
