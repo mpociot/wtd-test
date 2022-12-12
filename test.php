@@ -3,7 +3,8 @@
 $array = [
     "emoji" => "😀 😃 😄 😁 😆",
     "Random number" => rand(100, 999),
-    "PHP Version" => phpversion()
+    "PHP Version" => phpversion(),
+    "hungry pasta" => "yes"
 ];
 
 foreach ($array as $key => $value) {
